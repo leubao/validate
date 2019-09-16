@@ -1,0 +1,29 @@
+{
+    "name": "xunzhou/validate",
+    "type": "library",
+    "description": "An efficient swoole framework",
+    "keywords": [
+        "swoole",
+        "validate",
+        "async",
+        "easyswoole"
+    ],
+    "homepage": "https://www.leubao.com/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "IT",
+            "email": "zhoujing@leubao.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Validate\\": "src/Validate"
+        }
+    },
+    "require-dev": {
+    }
+}
